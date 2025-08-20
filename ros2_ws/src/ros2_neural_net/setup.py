@@ -23,6 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'rviz_controller = ros2_neural_net.rviz_controller:main'
         ],
     },
 )
