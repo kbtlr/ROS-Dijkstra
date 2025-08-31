@@ -1,0 +1,8 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Markers
+  Fixed Frame: map
+
