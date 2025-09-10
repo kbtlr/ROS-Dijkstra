@@ -1,0 +1,6 @@
+source;share/ros2_dijkstra/hook/pythonpath.dsv
+source;share/ros2_dijkstra/hook/pythonpath.sh
+source;share/ros2_dijkstra/hook/ament_prefix_path.dsv
+source;share/ros2_dijkstra/hook/ament_prefix_path.sh
+source;../../build/ros2_dijkstra/share/ros2_dijkstra/hook/pythonpath_develop.dsv
+source;../../build/ros2_dijkstra/share/ros2_dijkstra/hook/pythonpath_develop.sh

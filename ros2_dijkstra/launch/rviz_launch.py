@@ -39,8 +39,8 @@ def generate_launch_description():
         # Runs the Dijkstra planner and publishes cmd_vel
         Node(
             package='ros2_dijkstra',
-            executable='ros_dijkstra',
-            name='ros_dijkstra',
+            executable='navigator',
+            name='navigator',
             output='screen'
         ),
         # Static transform between map and odom
@@ -48,7 +48,7 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='static_tf_map_to_odom',
-            arguments=['0', '0', '0', '0', '0', '0', 'map', 'odom'],
+            arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'odom'],
             output='screen'
         ),
         # RViz

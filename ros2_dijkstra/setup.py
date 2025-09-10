@@ -23,7 +23,7 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'ros_dijkstra = ros2_dijkstra.ros_dijkstra:main',
+            'navigator = ros2_dijkstra.navigator:main',
             'rviz_controller = ros2_dijkstra.rviz_controller:main',
         ],
     },

@@ -22,6 +22,8 @@ Visualization Manager:
           Value: true
         map:
           Value: true
+        odom:
+          Value: true
       Marker Scale: 1
       Name: TF
       Show Arrows: true
@@ -29,8 +31,9 @@ Visualization Manager:
       Show Names: false
       Tree:
         map:
-          base_link:
-            {}
+          odom:
+            base_link:
+              {}
       Update Interval: 0
       Value: true
     - Alpha: 0.5
@@ -108,7 +111,7 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        map:
+        base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -159,10 +162,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.3647969961166382
+      Pitch: 0.3897969722747803
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz_default_plugins)
-      Yaw: 0.345405638217926
+      Yaw: 1.7004051208496094
     Saved: ~
 Window Geometry:
   Displays:
